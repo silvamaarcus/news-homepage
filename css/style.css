@@ -1642,6 +1642,52 @@ header {
   }
 }
 
+.bx.active {
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  background-image: url("../../svg/icon-menu-close.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 991;
+}
+
+.menu-mobile {
+  width: 50%;
+  height: 100vh;
+  padding-top: 160px;
+  background: #fffdfa;
+  z-index: 990;
+  transition: 0.7s ease;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  display: none;
+}
+.menu-mobile li .link-menu-mobile {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.menu-mobile li .link-menu-mobile:hover {
+  margin-left: 16px;
+}
+
+.menu-mobile.showmenu {
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: block;
+  box-shadow: -450px 0px 0px 0px rgba(0, 0, 0, 0.8);
+}
+.menu-mobile.showmenu li {
+  list-style: none;
+  padding: 12px 24px;
+  text-align: left !important;
+}
+
 .icon {
   max-width: 64px;
   transition: 0.5s ease;
@@ -1738,4 +1784,8 @@ option {
 }
 .btn:hover {
   background-color: #00001a;
+}
+
+.link:hover {
+  color: #f15e50 !important;
 }/*# sourceMappingURL=style.css.map */

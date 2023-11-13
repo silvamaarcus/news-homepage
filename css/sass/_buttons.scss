@@ -56,3 +56,9 @@ option {
     background-color: $black-dark;
   }
 }
+
+.link {
+  &:hover {
+    color: $soft-red !important;
+  }
+}
