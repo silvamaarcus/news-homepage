@@ -360,7 +360,6 @@ $gutter: 32px;
   background-color: rgba(27, 105, 210, 0.2);
 }
 
-
 // Section Main
 .bg-black {
   background-color: $black-dark;
@@ -368,8 +367,17 @@ $gutter: 32px;
 
 // Section News
 .news-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  
+  img {
+    max-height: 200px;
+    width: auto;
+  }
+
   @include responsive(s) {
     display: grid;
+
     grid-template-columns: 1fr;
   }
 }

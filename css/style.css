@@ -522,6 +522,14 @@
   background-color: #00001a;
 }
 
+.news-mobile {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-mobile img {
+  max-height: 200px;
+  width: auto;
+}
 @media screen and (max-width: 960px) {
   .news-mobile {
     display: grid;
@@ -1680,7 +1688,7 @@ header {
   top: 0;
   right: 0;
   display: block;
-  box-shadow: -450px 0px 0px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: -250px 0px 0px 0px rgba(0, 0, 0, 0.8) !important;
 }
 .menu-mobile.showmenu li {
   list-style: none;
