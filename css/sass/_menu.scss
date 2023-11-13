@@ -1,0 +1,59 @@
+header {
+  max-width: $container-l;
+  height: 96px;
+
+  margin: 24px auto;
+
+  display: grid;
+  align-items: center;
+
+  nav {
+    @include responsive(s) {
+      justify-content: space-between !important;
+      flex-direction: row !important;
+
+      margin: 0 24px;
+    }
+  }
+}
+
+.logo {
+  width: 64px;
+  width: 48px;
+}
+
+.menu {
+  // removendo bolinhas do link
+  list-style: none;
+
+  // espaçamento entre os links
+  li {
+    margin-left: 32px;
+  }
+
+  // desativar menu desktop em telas menores que 960px
+  @include responsive(s) {
+    display: none;
+  }
+}
+
+.bx {
+  width: 64px;
+  height: 32px;
+
+  cursor: pointer;
+
+  display: none;
+
+  position: relative;
+
+  border: 1px solid green;
+
+  background-image: url("../../svg/icon-menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include responsive(s) {
+    display: block;
+  }
+}
