@@ -18,7 +18,7 @@
 }
 
 .color-gray {
-  color: #717274;
+  color: #717274 !important;
 }
 
 .color-red {
@@ -520,6 +520,13 @@
 
 .bg-black {
   background-color: #00001a;
+}
+
+@media screen and (max-width: 960px) {
+  .news-mobile {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .s-0 {
@@ -1625,7 +1632,6 @@ header {
   cursor: pointer;
   display: none;
   position: relative;
-  border: 1px solid green;
   background-image: url("../../svg/icon-menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1693,7 +1699,7 @@ a {
   transition: 0.3s ease;
 }
 a:hover {
-  opacity: 0.7;
+  color: #f15e50;
 }
 
 input,

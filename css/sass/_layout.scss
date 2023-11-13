@@ -362,7 +362,14 @@ $gutter: 32px;
 
 
 // Section Main
-
 .bg-black {
   background-color: $black-dark;
+}
+
+// Section News
+.news-mobile {
+  @include responsive(s) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

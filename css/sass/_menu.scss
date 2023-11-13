@@ -47,8 +47,6 @@ header {
 
   position: relative;
 
-  border: 1px solid green;
-
   background-image: url("../../svg/icon-menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,3 +55,10 @@ header {
     display: block;
   }
 }
+// .bx.active {
+//   background-image: url("../../svg/icon-close.svg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+
+//   z-index: 991;
+// }
