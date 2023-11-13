@@ -167,7 +167,7 @@ $gutter: 32px;
   align-items: center;
   flex-direction: column;
 }
-// Flexbox p/ que os elementos fiquem alinhados em cada ponta da div.
+// Flexbox p/ que os elementos fiquem alinhados em cada ponta da div, e centraliza conteudo.
 .flex-space {
   display: flex;
   justify-content: space-between;
@@ -186,7 +186,7 @@ $gutter: 32px;
 }
 // Flexbox p/ que os elementos quebrem a linha no container, quando necessario.
 .flex-wrap {
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 
 // Biblioteca Flexbox | Itens filhos
@@ -358,4 +358,11 @@ $gutter: 32px;
   border-radius: 4px;
 
   background-color: rgba(27, 105, 210, 0.2);
+}
+
+
+// Section Main
+
+.bg-black {
+  background-color: $black-dark;
 }
