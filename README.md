@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/silvamaarcus/news-homepage)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://news-homepage-delta-taupe.vercel.app/)
 
 ## My process
 
@@ -52,8 +52,11 @@ Users should be able to:
 
 ### What I learned
 
-The project was initially developed with the entire static part. It began with the definition of style guides, colors, and typography. HTML5 was structured following the semantics of the tags. The arrangement of elements was applied using Grid and Flexbox logic. Finally, I added JavaScript to implement functionalities on the site, such as a hamburger menu for smaller screens.
+The project was initially developed with the entire static part. It began with the definition of style guides, colors, and typography. HTML5 was structured following the semantics of the tags. 
 
+The arrangement of elements was applied using Grid and Flexbox logic. Finally, I added JavaScript to implement functionalities on the site, such as a hamburger menu for smaller screens.
+
+Afterwards, the static project was converted into React components to enhance its maintainability
 
 ## Author
 
