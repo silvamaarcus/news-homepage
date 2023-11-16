@@ -22,15 +22,15 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- View the optimal layout for the interface depending on their device's screen size.
+- See hover and focus states for all interactive elements on the page.
 
 ### Screenshot
 - Desktop:
-![desktop](image.png)
+![desktop](https://github.com/silvamaarcus/news-homepage/assets/75142775/5e4b783c-5fca-4f7c-921c-507fe81986ce)
 
 - Mobile: 
-![Alt text](image-4.png)
+![mobile](https://github.com/silvamaarcus/news-homepage/assets/75142775/0a0742c0-357e-48af-9806-40c68cd4b138)
 
 
 ### Links
@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The project was initially developed with the entire static part. It began with the definition of style guides, colors, and typography. HTML5 was structured following the semantics of the tags. The arrangement of elements was applied using Grid and Flexbox logic. Finally, I added JavaScript to implement functionalities on the site, such as a hamburger menu for smaller screens.
 
 
 ## Author

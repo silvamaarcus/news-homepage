@@ -1640,7 +1640,7 @@ header {
   cursor: pointer;
   display: none;
   position: relative;
-  background-image: url("../../svg/icon-menu.svg");
+  background-image: url("../../../src/svg/icon-menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1654,7 +1654,7 @@ header {
   width: 48px;
   height: 48px;
   position: fixed;
-  background-image: url("../../svg/icon-menu-close.svg");
+  background-image: url("../../../src/svg/icon-menu-close.svg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 991;
@@ -1688,7 +1688,7 @@ header {
   top: 0;
   right: 0;
   display: block;
-  box-shadow: -250px 0px 0px 0px rgba(0, 0, 0, 0.8) !important;
+  box-shadow: -350px 0px 0px 0px rgba(0, 0, 0, 0.8) !important;
 }
 .menu-mobile.showmenu li {
   list-style: none;
